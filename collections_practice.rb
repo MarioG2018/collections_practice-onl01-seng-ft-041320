@@ -72,7 +72,7 @@ def sum_array(ints)
 end
 
 def add_s(array)
-  array.each_with_index do |a,i|
+  array.each_with_index.collect do |a,i|
     if(array[a]=="feet")
        array.push("s")
     end
