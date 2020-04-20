@@ -76,7 +76,6 @@ def add_s(array)
     if(array[a]!=a[1])
        array.push("s")
     end
-    #array
-    end
     array
+    end
 end
