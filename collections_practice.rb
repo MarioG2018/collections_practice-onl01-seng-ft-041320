@@ -72,7 +72,7 @@ def sum_array(ints)
 end
 
 def add_s(array)
-  array.each_with_index do |a,i|
+  array.each_with_index.map do |a,i|
     if(a!=array[1])
        return array=a +"s"
     else
