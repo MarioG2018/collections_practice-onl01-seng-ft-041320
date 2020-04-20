@@ -74,9 +74,9 @@ end
 def add_s(array)
   array.each_with_index do |a,i|
     if(a!=array[1])
-       array=a +"s"
+       return array=a +"s"
     else
-      array=a
+      return array=a
     end
     array
     end
