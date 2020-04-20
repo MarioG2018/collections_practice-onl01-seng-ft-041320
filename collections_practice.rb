@@ -80,5 +80,5 @@ def add_s(array)
     end
     array
     end
-    array[1="feet"]
+    array[1]="feet"
 end
