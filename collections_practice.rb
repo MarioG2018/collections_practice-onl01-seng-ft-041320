@@ -72,9 +72,9 @@ def sum_array(ints)
 end
 
 def add_s(array)
-  array.each_with_index.collect do |element,index|
-    if(element!=array[1])
-       array[element][index].push="s"
+  array.each_with_index.collect do |a,i|
+    if(a!=array[1])
+       array[a][i].push="s"
     end
     end
     array
