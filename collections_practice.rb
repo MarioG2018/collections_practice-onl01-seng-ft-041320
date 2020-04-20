@@ -76,6 +76,7 @@ def add_s(array)
     if(a!=array[1])
        a[i-1]="s"
     end
-    end
     array
+    end
+    #array
 end
