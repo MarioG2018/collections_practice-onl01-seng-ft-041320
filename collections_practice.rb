@@ -74,7 +74,7 @@ end
 def add_s(array)
   array.each_with_index.map do |a,i|
     if(a!=array[1])
-       array[a][i]="s"
+       array[i]="s"
     end
     end
     array
