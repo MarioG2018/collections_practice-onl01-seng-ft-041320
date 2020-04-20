@@ -72,8 +72,8 @@ def sum_array(ints)
 end
 
 def add_s(array)
-  array.each_with_index do |a,i|
-    if(a!=array[1])
+  array.each_with_index do |element,index|
+    if(element!=array[1])
        array.push("s")
     end
     array
