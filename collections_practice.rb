@@ -76,6 +76,6 @@ def add_s(array)
     if(element!=array[1])
        array[element].push="s"
     end
-    array
     end
+    array
 end
