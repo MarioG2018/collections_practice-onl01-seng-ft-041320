@@ -74,11 +74,10 @@ end
 def add_s(array)
   array.each_with_index.map do |a,i|
     if(a!=array[1])
-       array= a +"s"
+       a +"s"
     else
-      array= a
+      a
     end
     array
     end
-    array[1]="feet"
 end
