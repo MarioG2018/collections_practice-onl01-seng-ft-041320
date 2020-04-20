@@ -79,5 +79,4 @@ def add_s(array)
        a
     end
     array
-    end
 end
