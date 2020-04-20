@@ -74,7 +74,7 @@ end
 def add_s(array)
   array.each_with_index do |element,index|
     if(element!=array[1])
-       element.push("s")
+       array.push("s")
     end
     array
     end
